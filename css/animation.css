@@ -66,3 +66,13 @@
     transform: scale(1.5);
     transition: 2s;
 }
+
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
