@@ -22,3 +22,11 @@
     transition: 2s;
 }
 
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+.ex-4-square {
+    transition: 2s;
+}
+
