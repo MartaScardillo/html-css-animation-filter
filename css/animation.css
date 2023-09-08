@@ -76,3 +76,21 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover {
+    animation: spin75 2s linear;
+}
+
+@keyframes spin75 {
+    0% {
+        transform: rotate(0);
+    }
+
+    90% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
