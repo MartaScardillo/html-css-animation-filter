@@ -30,3 +30,14 @@
     transition: 2s;
 }
 
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(.5);
+}
+
+.ex-5-square {
+    transition: 2s;
+}
